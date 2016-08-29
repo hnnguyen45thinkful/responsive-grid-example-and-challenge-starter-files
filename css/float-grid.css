@@ -1,3 +1,4 @@
+/*Edited on the bottom for each columns Non-mobile*/
 * {
   box-sizing: border-box;
 }
@@ -59,15 +60,20 @@
   }
 
   /* 4 columns */
+  /*Since it only has three then its a 33.33 percent width since 100 divided by 3 is 33.333333333333333333333333*/
   .col-4 {
+    width: 33.33%
   }
 
   /* 6 columns */
+  /*Since it only has two then its a 50 percent width for each box column because half of 100 is 50*/
   .col-6 {
-
+    width: 50%;
   }
 
   /* 12 columns */
+  /*Since it only has one then its a 100 percent width*/
   .col-12 {
+    width: 100%;
   }
 }
